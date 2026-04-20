@@ -21,6 +21,9 @@ build/
 venv/
 env/
 
+# Editor history
+.history/
+
 # Environment variables
 .env
 
