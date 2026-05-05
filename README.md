@@ -32,6 +32,7 @@ main.py            — entry point, CLI, State, agent loop
 tools/
   __init__.py      — TOOLS (schema list) and TOOL_MAP (name → function)
   read_file.py     — read_file tool
+  count_text_stats.py — count_text_stats tool
 ```
 
 ### Key Components (all in main.py)
@@ -62,7 +63,7 @@ User message → LLM → tool_calls? ──no──→ return text
 - Dual provider support: OpenAI-compatible API and Anthropic native API
 - System prompt support
 - Interactive mode (default) and single-turn mode
-- Built-in tools: `read_file`
+- Built-in tools: `read_file`, `count_text_stats`
 
 ## Project Plan
 
