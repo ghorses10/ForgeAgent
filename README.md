@@ -6,7 +6,7 @@ Minimal Python Agent framework for research and learning. No heavy frameworks (L
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env  # fill in your FORGE_AGENT_BASE_URL and FORGE_AGENT_API_KEY
+cp .env.example .env  # fill in your API key and endpoint
 ```
 
 ## Run
@@ -23,10 +23,12 @@ Or use the launcher scripts:
 run.bat "Hello"       # Windows
 ```
 
-## Step 1 — What exists
+## Current Features
 
-- Single-turn or interactive LLM dialog via OpenAI-compatible API
-- No history, no tools, no agent loop (those come in later steps)
+- Multi-turn dialog with conversation history
+- Dual provider support: OpenAI-compatible API and Anthropic native API
+- System prompt support
+- Interactive mode (default) and single-turn mode
 
 ## Project Plan
 
